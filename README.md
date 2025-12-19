@@ -7,8 +7,3 @@
 - ✅ Простой получатель (Consumer)
 - ✅ Базовая конфигурация RabbitMQ
 - ✅ Примеры с автоматическим и ручным подтверждением
-
-## Быстрый старт
-1. Запустите RabbitMQ: `docker-compose up`
-2. Запустите получателя: `dotnet run --project src/Consumer`
-3. Запустите отправителя: `dotnet run --project src/Producer`
